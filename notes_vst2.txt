@@ -1,0 +1,3 @@
+NOTA: VST2 SDK ya no se distribuye públicamente de forma libre por Steinberg. Por esa razón
+este paquete sólo contiene VST3. Si deseas VST2 legalmente, necesitas obtener la licencia
+procedente de Steinberg y usar el SDK VST2 en tu proceso de compilación local.

@@ -1,0 +1,2 @@
+Sin licencia específica requerida por el usuario. Este repositorio no incluye declaración de licencia.
+Si deseas una licencia (MIT, GPL, etc.), dímelo y la agrego.
