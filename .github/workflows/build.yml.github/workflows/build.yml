@@ -1,0 +1,23 @@
+name: Build EQ3 VST3 (Windows)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Instalar Faust
+        run: choco install faust -y
+
+      - name: Compilar EQ3
+        run: faust2vst3 EQ3-faust/eq3.dsp -o build
+
+      - name: Subir artefacto
+        uses: actions/upload-artifact@v3
+        with:
+          name: EQ3-VST3
+          path: build/
+   
